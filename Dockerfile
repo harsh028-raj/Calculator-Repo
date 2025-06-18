@@ -10,4 +10,4 @@ COPY calc.py .
 RUN pip install flask
 
 # Run the Python script when the container starts
-CMD ["python", "calc.py"]
+CMD ["python3", "calc.py"]
